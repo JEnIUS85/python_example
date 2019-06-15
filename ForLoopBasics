@@ -1,0 +1,17 @@
+
+#For loop to iterate through each elements of a list
+
+for i in [1,2,3]:
+ print(i)
+
+print("======================\n")
+#For loop to iterate over each character within a String
+
+for ch in "Hello World !" :
+ print(ch)
+print("======================\n")
+
+# For loop Iterating a Specific Number of Times
+
+for num in range(5):
+ print(num)

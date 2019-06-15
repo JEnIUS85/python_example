@@ -1,0 +1,10 @@
+import sys
+import os
+
+print("Operating System  = " + sys.platform)
+
+print("OS version = " + sys.version)
+
+env_variable = os.environ
+
+#print("OS Environment variables = " + env_variable)

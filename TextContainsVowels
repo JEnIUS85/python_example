@@ -1,0 +1,14 @@
+
+vowel_list = [ 'a', 'e', 'i', 'o','u']
+
+test_word= input( "Type the word to be searched ..")
+
+contains_vowel = False
+
+for ch in test_word :
+ if ch in vowel_list :
+  print("Vowel present in the given Test Word = " + ch)
+  contains_vowel = True
+
+if contains_vowel == False :
+ print("Given Test Word dosen't contain a vowel")

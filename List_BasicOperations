@@ -1,0 +1,62 @@
+
+print("Create list containing Numbers")
+number_list = [11,22,33,44]
+print(number_list)
+print("=========================")
+
+print("Add 1 more element to the list")
+number_list.append(55)
+print(number_list)
+print("=========================")
+
+print("remove element with value 22")
+number_list.remove(22) #Remove function removes first element with the value you have provided. it wont remove element with index
+print(number_list)
+print("=========================")
+
+print("remove the last element from the list")
+number_list.pop()
+print(number_list)
+print("=========================")
+
+print("remove the second element (1st index) from the list")
+number_list.pop(1)
+print(number_list)
+print("=========================")
+
+print("add another list to the number_list")
+new_list=[1,2,3,4]
+number_list.extend(new_list)
+print(number_list)
+print("=========================")
+
+
+print("insert 22 back to its second position ( i.e. 1st index )")
+number_list.insert(1,22)
+print(number_list)
+print("=========================")
+
+
+print("copy reference of one list into another")
+second_list=number_list
+number_list.append(0)
+print("number_list =")
+print(number_list)
+print("second_list")
+print(second_list)
+print("=========================")
+
+print("copy only the content of one list into another")
+second_list = number_list.copy()
+third_list= [] # can't do it in single line as third_list = [].extend(number_list), it results in None..
+third_list.extend(number_list)
+number_list.append(100)
+print("number_list ")
+print(number_list)
+print("second list ")
+print(second_list)
+print("third list ")
+print(third_list)
+print("=========================")
+
+

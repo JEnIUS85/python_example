@@ -60,3 +60,7 @@ print(third_list)
 print("=========================")
 
 
+print("list with heterogeneous elements")
+heterogeneous_list=[1,"2", False]
+print(heterogeneous_list)
+print("=========================")

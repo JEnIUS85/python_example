@@ -1,4 +1,5 @@
 
+print(" With List in-built data alone, find if the given text contains vowel")
 vowel_list = [ 'a', 'e', 'i', 'o','u']
 
 test_word= input( "Type the word to be searched ..")
@@ -12,3 +13,18 @@ for ch in test_word :
 
 if contains_vowel == False :
  print("Given Test Word dosen't contain a vowel")
+print("=========================")
+
+
+print(" With Dictionary built-in data structure, find the number of time a particular vowel has appeared in given text")
+test_word= input( "Type the word to be searched ..")
+#vowel_count_dictionary = {'a': 0, 'e': 0, "i": 0, 'o' : 0, 'u' : 0}
+vowel_count_dictionary = {}
+for ch in test_word :
+ if ch in vowel_list :
+   if ch in vowel_count_dictionary:
+    vowel_count_dictionary[ch] = vowel_count_dictionary[ch] + 1
+   else :
+     vowel_count_dictionary[ch] = 1
+
+print(vowel_count_dictionary)

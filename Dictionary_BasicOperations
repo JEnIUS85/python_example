@@ -1,0 +1,28 @@
+
+print("Create basic dictionary object")
+b_d_o = { 'Name' : 'Ford Perfect',
+          'Gender' : 'Male',
+          'Occupation' : 'Researcher',
+          'Home Planet' : 'Betelgeuse Seven'
+         }
+print(b_d_o)
+print("=========================")
+
+print("Access dictionary element through its Key value")
+print(b_d_o['Name'])
+print("=========================")
+
+print("Add new element to existing dictionary object")
+b_d_o['Age']='34'
+print(b_d_o)
+print("=========================")
+
+print("Iterate over each Key/Value pair in Dict")
+for kv in b_d_o :
+ print( "Key =" +kv + " || Value = " + b_d_o[kv])
+print("=========================")
+
+print("Iterate over each Key/Value pair in Dict using Item() method")
+for k,v in sorted(b_d_o.items()) :
+ print( "Key =" +k + " || Value = " + v)
+print("=========================")

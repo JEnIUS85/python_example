@@ -26,3 +26,9 @@ print("Iterate over each Key/Value pair in Dict using Item() method")
 for k,v in sorted(b_d_o.items()) :
  print( "Key =" +k + " || Value = " + v)
 print("=========================")
+
+print("Check a key exists, if not crate it and set to a default value")
+b_d_o.setdefault("Day", "today")
+print(b_d_o)
+print("=========================")
+

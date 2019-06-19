@@ -1,0 +1,20 @@
+
+print("if condition using IN operation")
+sample_list = ['1','2','3','4','5']
+search_element = input("Enter a number -- we will search it in our List")
+if search_element in sample_list :
+ print("Element found in list :-)")
+else:
+ print("Element not found in list :-(" )
+
+print("=========================")
+
+print("if condition using NOT IN operation")
+search_element = input("Enter a number -- we will search it in our List")
+if search_element not in sample_list :
+ print("Element not found in list :-(")
+else:
+ print("Element found in list :-)" )
+
+print("=========================")
+

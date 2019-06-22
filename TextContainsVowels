@@ -41,3 +41,12 @@ for ch in test_word :
 
 print(vowel_count_dictionary)
 print("=========================")
+
+
+print(" with set - data structure and its intersection method")
+vowels = set('a,e,i,o,u')
+print(vowels)
+test_word = input(" Type the work to be searched ..")
+searched_set = vowels.intersection(set(test_word))
+print(searched_set)
+print("=========================")

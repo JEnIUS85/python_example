@@ -50,3 +50,4 @@ test_word = input(" Type the work to be searched ..")
 searched_set = vowels.intersection(set(test_word))
 print(searched_set)
 print("=========================")
+

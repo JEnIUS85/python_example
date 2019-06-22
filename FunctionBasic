@@ -1,0 +1,18 @@
+
+def search_4_vowels(word : str, vowel_set:set =set('aeiou') )-> set:
+ """ this function will search vowels in the string passed as input"""
+ #vowel_set = set('aeiou')
+ print(vowel_set)
+ return set(word).intersection(vowel_set)
+
+
+
+
+print("Search_4_Vowel:")
+help(search_4_vowels)
+test_word = input("Enter a word /phrase and we will search vowels in it ::: ")
+result_set = search_4_vowels(test_word)
+print(result_set)
+print("=========================")
+
+
